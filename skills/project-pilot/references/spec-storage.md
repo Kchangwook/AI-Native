@@ -14,8 +14,11 @@ doc/spec/
 │       └── <feature-id>.yaml
 ├── drafts/
 │   └── <change-id>/
+│       ├── project.yaml      # 빈 프로젝트의 기본 설정이 필요한 경우
 │       ├── design.yaml
-│       └── plan.yaml
+│       ├── plan.yaml
+│       └── tasks/
+│           └── <task-id>.yaml # task별 상세 설계·확인 상태
 └── progress.yaml
 ```
 
